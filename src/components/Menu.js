@@ -1,21 +1,15 @@
-import { Navbar, Nav, Container } from 'react-bootstrap'
+import { Navbar, Container } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
 const Menu = () => {
   return (
-    <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+    <Navbar expand='lg' collapseOnSelect bg="light" variant="light" >
+    <div></div>
       <Container>
         <LinkContainer to='/'>
-          <Navbar.Brand>Template</Navbar.Brand>
+          <Navbar.Brand color='blue'>Water Wallet</Navbar.Brand>
         </LinkContainer>
-        <Navbar.Toggle aria-controls='basic-navbar-nav' />
-        <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='mr-auto'>
-            <LinkContainer to='/about'>
-              <Nav.Link>About</Nav.Link>
-            </LinkContainer>
-          </Nav>
-        </Navbar.Collapse>
+         
       </Container>
     </Navbar>
   )

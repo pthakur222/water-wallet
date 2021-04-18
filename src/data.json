@@ -1,0 +1,131 @@
+{ 
+
+    "company": "THAMES_WATER", 
+
+    "monthlyUsage": 100000.0, 
+
+    "applianceLimits": [ 
+
+        { 
+
+            "appliance": "Washing machine", 
+
+            "maximumLimit": 2, 
+
+            "timeUnit": "WEEK" 
+
+        }, 
+
+        { 
+
+            "appliance": "Handwashing dishes", 
+
+            "maximumLimit": 2, 
+
+            "timeUnit": "WEEK" 
+
+        }, 
+
+        { 
+
+            "appliance": "Dishwasher", 
+
+            "maximumLimit": 4, 
+
+            "timeUnit": "WEEK" 
+
+        }, 
+
+        { 
+
+            "appliance": "Kettle", 
+
+            "maximumLimit": 2, 
+
+            "timeUnit": "DAY" 
+
+        }, 
+
+        { 
+
+            "appliance": "Handwashing food - bowl", 
+
+            "maximumLimit": 5, 
+
+            "timeUnit": "WEEK" 
+
+        }, 
+
+        { 
+
+            "appliance": "Bath - full", 
+
+            "maximumLimit": 0, 
+
+            "timeUnit": "WEEK" 
+
+        }, 
+
+        { 
+
+            "appliance": "Tap running - teeth", 
+
+            "maximumLimit": 14, 
+
+            "timeUnit": "WEEK" 
+
+        }, 
+
+        { 
+
+            "appliance": "Tap running - shaving", 
+
+            "maximumLimit": 7, 
+
+            "timeUnit": "WEEK" 
+
+        }, 
+
+        { 
+
+            "appliance": "Shower", 
+
+            "maximumLimit": 6, 
+
+            "timeUnit": "WEEK" 
+
+        }, 
+
+        { 
+
+            "appliance": "Toilet", 
+
+            "maximumLimit": 5, 
+
+            "timeUnit": "DAY" 
+
+        }, 
+
+        { 
+
+            "appliance": "Garden hose", 
+
+            "maximumLimit": 4, 
+
+            "timeUnit": "MONTH" 
+
+        }, 
+
+        { 
+
+            "appliance": "Car wash", 
+
+            "maximumLimit": 0, 
+
+            "timeUnit": "MONTH" 
+
+        } 
+
+    ] 
+
+} 

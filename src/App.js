@@ -1,12 +1,13 @@
 import { Container } from 'react-bootstrap'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import 'semantic-ui-css/semantic.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 // page components
 import Menu from './components/Menu'
-import Footer from './components/Footer'
 // pages
 import Home from './pages/Home'
-import About from './pages/About'
-import NotFound from './pages/NotFound'
+import Journey from './pages/Journey'
+import ActionPlan from './pages/ActionPlan';
 
 const App = () => {
   return (
@@ -16,12 +17,12 @@ const App = () => {
         <Container>
           <Switch>
             <Route path='/' component={Home} exact />
-            <Route path='/about' component={About} />
-            <Route component={NotFound} />
+            <Route path='/about' component={Journey} />
+            <Route path='/action' component={ActionPlan} />
           </Switch>
         </Container>
       </main>
-      <Footer />
+     
     </Router>
   )
 }
